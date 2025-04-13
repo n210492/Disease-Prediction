@@ -13,7 +13,7 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="sklearn")
 
 # Directory Configuration
-BASE_DIR = "C:\\Users\\preet\\Desktop\\Ai_Model"
+BASE_DIR = "Ai_Model"
 MODELS_DIR = os.path.join(BASE_DIR, "models")
 os.makedirs(MODELS_DIR, exist_ok=True)
 
